@@ -7,7 +7,7 @@ This wavefield is stored for display in a 4F and RELPH setup.
 <img src="4F.png">
 <img src="RELPH.png">
 
-The 4F setup modulates the phase with two phase modulators, where the first one modulates the phase $\phi_$ and the second one modulates the amplitude by interference with itself and correcting the phase error with the first modulator as follows:
+The 4F setup modulates the phase with two phase modulators, where the first one modulates the phase $\phi_1$ and the second one modulates the amplitude by interference with itself and correcting the phase error with the first modulator as follows:
 $\phi_2 = \pm 2 \operatorname{arccos}(ampli)$
 (amplitude modulated by interference of light with itself)
 $\phi_1 = \operatorname{phase}(E) - \phi_2$
