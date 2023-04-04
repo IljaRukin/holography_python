@@ -8,7 +8,9 @@ This wavefield is stored for display in a 4F and RELPH setup.
 <img src="RELPH.png">
 
 The 4F setup modulates the phase with two phase modulators, where the first one modulates the phase $\phi$ and the second one modulates the amplitude by interference with itself and correcting the phase error with the first modulator as follows:
-<img src="https://latex.codecogs.com/gif.latex?\phi2 = \pm 2 \operatorname{arccos}(ampli)" />
+```math
+\phi2 = \pm 2 \operatorname{arccos}(ampli)
+```
 (amplitude modulated by interference of light with itself)
 <img src="https://latex.codecogs.com/gif.latex?\phi1 = \operatorname{phase}(E) - \phi2" />
 (phase + phase correction for this particular amplitude modulation)
