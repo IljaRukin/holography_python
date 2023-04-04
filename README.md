@@ -1,8 +1,7 @@
 # holography_python
 calculate and simulate holograms in python<br>
-the example shows the propagation of the plane image shepp logan phantom
-<img src="shepp_logan_phantom.png">
-to a complex wavefield "wavefield.npy".<br>
+the example shows the propagation of the light from a wireframe cube 50mm to 100mm away from the modulator at a wavelength of $\lambda=638\,$nm .
+The result is a complex wavefield "wavefield.npy".
 This wavefield is stored for display in a 4F and RELPH setup.
 <img src="4F.png">
 <img src="RELPH.png">
