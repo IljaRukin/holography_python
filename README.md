@@ -1,10 +1,10 @@
 # holography_python
 calculate and simulate holograms in python<br>
-the example shows the propagation of the light from a wireframe cube 50mm to 100mm away from the modulator at a wavelength of $\lambda=638\,$nm .
+the example shows the propagation of the light from a wireframe cube 50mm to 100mm away from the modulator at a wavelength of $\lambda=638$nm .
 The result is a complex wavefield "wavefield.npy".
 This wavefield is stored for display in a 4F and RELPH setup.
-<img src="4F.png" style="width:45%">
-<img src="RELPH.png" style="width:45%">
+<img src="4F.png" style="width:300px">
+<img src="RELPH.png" style="width:300px">
 
 The 4F setup modulates the phase with two phase modulators, where the first one modulates the phase $\phi_1$ and the second one modulates the amplitude by interference with itself and correcting the phase error with the first modulator as follows:
 $\phi_2 = \pm 2 \operatorname{arccos}(ampli)$
